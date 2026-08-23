@@ -1,0 +1,84 @@
+3. Color & Font
+CSS provides properties to control the appearance and readability of text.
+Color
+The color property controls the color of the text.
+Colors can be represented using:
+Color names
+HEX values
+RGB values
+RGBA values
+HSL values
+Font
+Font-related properties control the appearance of text.
+Important font properties include:
+font-family → specifies the typeface.
+font-size → controls the size of text.
+font-weight → controls the thickness of text.
+font-style → controls whether text is normal, italic, etc.
+font-variant → controls certain variations of the font.
+CSS also provides text properties such as:
+text-align → controls horizontal alignment.
+text-decoration → adds or removes decorations such as underlining.
+line-height → controls the vertical spacing between lines.
+Main purpose: Improve readability, hierarchy, and visual appearance of content.
+
+/* =========================
+   1. COLOR
+   ========================= */
+
+/* Color name */
+h1 {
+    color: red;
+}
+
+/* HEX value */
+.heading {
+    color: #3498db;
+}
+
+/* RGB value */
+.rgb-text {
+    color: rgb(255, 99, 71);
+}
+
+/* RGBA value
+   'A' controls transparency */
+.transparent-text {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+/* HSL value */
+.hsl-text {
+    color: hsl(120, 60%, 40%);
+}
+
+
+/* =========================
+   2. FONT
+   ========================= */
+
+p {
+    /* Type of font */
+    font-family: Arial, sans-serif;
+
+    /* Size of text */
+    font-size: 18px;
+
+    /* Thickness of text */
+    font-weight: bold;
+
+    /* Normal or italic */
+    font-style: italic;
+
+    /* Font variation */
+    font-variant: small-caps;
+
+    /* Horizontal alignment */
+    text-align: center;
+
+    /* Text decoration */
+    text-decoration: underline;
+
+    /* Space between lines */
+    line-height: 1.6;
+}
