@@ -1,0 +1,46 @@
+4. Background
+The background of an HTML element is the area behind its content and padding.
+CSS provides several background properties.
+Background Color
+Used to specify the background color of an element.
+Background Image
+Used to place an image behind an element.
+Background Repeat
+Controls whether a background image should repeat.
+Background Size
+Controls the size of the background image.
+For example, cover makes the image cover the available area while maintaining its aspect ratio.
+Background Position
+Controls the position of the background image, such as center, top, bottom, left, or right.
+Background Attachment
+Controls whether the background image scrolls with the page or remains fixed.
+Main purpose of backgrounds: To improve the visual design and appearance of webpages.
+
+/* =========================
+   BACKGROUND
+   ========================= */
+
+/* 1. Background Color */
+body {
+    background-color: #f2f2f2;
+}
+
+/* 2. Background Image */
+.hero {
+    background-image: url("nature.jpg");
+
+    /* 3. Background Repeat */
+    background-repeat: no-repeat;
+
+    /* 4. Background Size */
+    background-size: cover;
+
+    /* 5. Background Position */
+    background-position: center;
+
+    /* 6. Background Attachment */
+    background-attachment: fixed;
+
+    /* Height is added so the background is visible */
+    height: 400px;
+}
