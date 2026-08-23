@@ -1,0 +1,58 @@
+2. Selectors & Properties
+Selector
+A selector is used to identify the HTML element or elements that need to be styled.
+Common selectors include:
+Element selector – selects elements based on their HTML tag.
+Class selector – selects elements having a particular class.
+ID selector – selects an element using its unique ID.
+Universal selector – selects all elements.
+Property
+A property defines what aspect of an element will be changed.
+Examples:
+color → changes text color
+font-size → changes text size
+background-color → changes background color
+width → controls width
+margin → controls outer spacing
+Value
+A value specifies how the property should be applied.
+For example:
+color → property
+red → value
+So the basic CSS structure is:
+Selector → Property → Value
+
+/* 1. Universal Selector
+   Selects all HTML elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Element Selector
+   Selects all <p> elements */
+p {
+    color: blue;
+    font-size: 18px;
+}
+
+/* 3. Class Selector
+   Selects elements with class="heading" */
+.heading {
+    color: green;
+    background-color: lightgray;
+    width: 300px;
+}
+
+/* 4. ID Selector
+   Selects the element with id="title" */
+#title {
+    color: red;
+    font-size: 30px;
+}
+
+/* Basic CSS structure:
+   selector {
+       property: value;
+   }
+*/
